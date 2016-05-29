@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Shablon</title>
+	<link rel="stylesheet" href="css/shablon.css">
+   <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+	<script src="js/template.js"></script>
+	<script src="js/shablon.js"></script>
+</head>
+<body>
+   <section class="shablon">
+   	<script type="text/html" id="test">
+   	 <div class="wrapper">
+   		<div class="header">
+   			<h1><%= name %></h1>
+   			<img src="<%= photo.src%>" alt="<%= photo.alt%>">
+   			<p><%= about %></p>
+   		</div>
+   		<hr>
+   		<div class="main">
+   			<h3><%= why %></h3>
+   			<ul>
+   				<% for (var i = 0; i < because.length; i++) { %>
+                <li><%= because[i] %></li>
+                <% } %>
+   			</ul>
+   		</div>
+   		<hr>
+   		<div class="contacts">
+   			<p><%= tel %></p>
+   			<p><%= number %></p>
+   			<br>
+   			<p><%= vk %></p>
+   			<a href="<%= vkLink%>">VK</a>
+   		</div>
+   		<hr>
+   		<div class="feedback">
+   			<p><%= feedback %></p>
+   			<p><%= feedbackText %></p>
+   		</div>
+   	 </div>	
+   	</script>
+   </section>
+</body>
+</html>
