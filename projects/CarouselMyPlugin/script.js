@@ -1,0 +1,5 @@
+$(function () {
+
+	$('li.carousel').carousel();
+	
+});
