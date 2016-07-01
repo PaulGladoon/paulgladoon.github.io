@@ -63,6 +63,10 @@ table {
   width: 1160px;
   margin: 0 auto; }
 
+.header {
+  width: 1240px;
+  margin: 0 auto; }
+
 .logo {
   margin-top: 37px;
   margin-left: 4px;
@@ -163,8 +167,16 @@ table {
   left: 1123px;
   top: 18px; }
 
+.slider-img .bx-wrapper .bx-viewport {
+  border: none;
+  left: 0px; }
+
 .slider-img {
   margin-top: 40px; }
+
+.content {
+  width: 1240px;
+  margin: 0 auto; }
 
 .article {
   margin-top: 70px; }
@@ -424,11 +436,15 @@ table {
 .our-services__repair-services__link:hover .our-services__repair-services__text {
   color: #f4b60d; }
 
+.news {
+  width: 1240px;
+  margin: 0 auto; }
+
 .latest-news {
-  float: left; }
+  float: left;
+  padding-bottom: 82px; }
 
 .news-bg {
-  height: 543px;
   background-color: #f7f7f7; }
 
 .latest-news__news {
@@ -592,6 +608,10 @@ table {
   border: none;
   background: none; }
 
+.sponsors {
+  width: 1240px;
+  margin: 0 auto; }
+
 .sponsors__block {
   height: 240px; }
 
@@ -600,6 +620,8 @@ table {
   margin-left: 23px; }
 
 .navigation-links {
+  width: 1240px;
+  margin: 0 auto;
   height: 325px;
   background-color: #2a2d32; }
 
@@ -731,6 +753,8 @@ table {
   color: #248cec; }
 
 .footer {
+  width: 1240px;
+  margin: 0 auto;
   height: 60px;
   background-color: #35383c; }
 
