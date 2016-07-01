@@ -1,0 +1,796 @@
+@import "reset"
+@import "fonts"
+
+
+$hover-collor:              #248cec
+$blocks-collor:             #2a2d32
+$power-inside-color-number: #e9e9ea
+$article-text-color:        #8a8a8a
+$font-article:              'Ubuntu'
+$border-color:              #393c40
+$footer-bg-color:           #35383c
+
+
+*
+  margin: 0
+  padding: 0
+
+.clearfix:after
+  content: ""
+  clear: both
+  display: block
+
+.wrapper
+  width: 1160px
+  margin: 0 auto
+
+// HEADER
+
+.logo
+  margin-top: 37px
+  margin-left: 4px
+  display: block
+  float: left
+
+.social-networks
+  margin-top: 48px
+  float: right
+  margin-right: 3px
+
+.social-networks__link
+  padding-left: 18px
+  float: left
+
+.genericon-facebook-alt
+  color: black
+  opacity: 0.2
+
+.genericon-facebook-alt:hover
+  color: $hover-collor
+  opacity: 1
+
+.genericon-twitter
+  color: black
+  opacity: 0.2
+
+.genericon-twitter:hover
+  color: $hover-collor
+  opacity: 1
+
+.genericon-feed
+  color: black
+  opacity: 0.2
+
+.genericon-feed:hover
+  color: $hover-collor
+  opacity: 1
+
+.genericon-linkedin
+  color: black
+  opacity: 0.2
+
+.genericon-linkedin:hover
+  color: $hover-collor
+  opacity: 1
+
+.genericon-skype
+  color: black
+  opacity: 0.2
+
+.genericon-skype:hover
+  color: $hover-collor
+  opacity: 1
+
+.navigation
+  position: relative
+  margin-top: 37px
+  height: 56px
+  background-color: $blocks-collor
+
+.menu
+  float: left
+
+.menu__link
+  float: left
+  list-style: none
+
+.menu__link a
+  text-decoration: none
+  display: block
+  padding: 0px 40px
+  border-right: 1px black solid
+  font-size: 14px
+  line-height: 56px
+  color: white
+  font-family: 'MyriadPro-Regular'
+
+.menu__link a:hover
+  background-color: #248cec
+  color: #f4b60d
+
+.search-form
+  float: right
+  height: 38px
+  width: 239px
+  margin-top: 7px
+  margin-right: 8px
+  background-color: #35383c
+  line-height: 38px
+  font-family: Arial
+  font-size: 12px
+  color: #626466
+  border-color: black
+
+.search-form__img
+  position: absolute
+  left: 1123px
+  top: 18px
+
+//SLIDER
+
+.slider-img .bx-wrapper .bx-viewport
+  border: none
+  left: 0px
+
+.slider-img
+  margin-top: 40px
+
+// CONTENT
+
+.article
+  margin-top: 70px
+
+// CONTENT power-inside BLOCK
+
+.article__power-inside
+  position: relative
+  width: 360px
+  float: left
+
+.power-inside__number
+  float: left
+  font-size: 90px
+  font-family: $font-article
+  color: $power-inside-color-number
+
+.power-insdie__img
+  display: block
+  position: absolute
+  left: 123px
+  top: 12px
+
+.power-inside__head
+  margin-left: 122px
+  padding-top: 62px
+  font-family: $font-article
+  font-size: 20px
+
+.power-inside__text
+  font-family: Arial
+  font-size: 13px
+  margin-left: 120px
+  margin-top: 22px
+  line-height: 20px
+  color: $article-text-color
+
+.power-inside__link
+  display: block
+  margin-left: 120px
+  margin-top: 23px
+  text-decoration: none
+  font-family: $font-article
+  font-size: 13px
+  color: black
+  cursor: pointer
+
+.power-inside__link:hover
+  color: $hover-collor
+
+.genericon-next
+  color: $hover-collor
+
+// CONTENT new-technologies BLOCK
+
+.article__new-technologies
+  position: relative
+  width: 360px
+  float: left
+  margin-left: 40px
+
+.new-technologies__number
+  float: left
+  font-size: 90px
+  font-family: $font-article
+  color: $power-inside-color-number
+
+.new-technologies__img
+  display: block
+  position: absolute
+  left: 123px
+  top: 12px
+
+.new-technologies__head
+  margin-left: 122px
+  padding-top: 62px
+  font-family: $font-article
+  font-size: 20px
+
+.new-technologies__text
+  font-family: Arial
+  font-size: 13px
+  margin-left: 120px
+  margin-top: 22px
+  line-height: 20px
+  color: $article-text-color
+
+.new-technologies__link
+  display: block
+  margin-left: 120px
+  margin-top: 23px
+  text-decoration: none
+  font-family: $font-article
+  font-size: 13px
+  color: black
+  cursor: pointer
+
+.new-technologies__link:hover
+  color: $hover-collor
+
+// CONTENT fast-support BLOCK
+
+.article__fast-support
+  position: relative
+  width: 360px
+  float: left
+  margin-left: 40px
+
+.fast-support__number
+  float: left
+  font-size: 90px
+  font-family: $font-article
+  color: $power-inside-color-number
+
+.fast-support__img
+  display: block
+  position: absolute
+  left: 123px
+  top: 12px
+
+.fast-support__head
+  margin-left: 122px
+  padding-top: 62px
+  font-family: $font-article
+  font-size: 20px
+
+.fast-support__text
+  font-family: Arial
+  font-size: 13px
+  margin-left: 120px
+  margin-top: 22px
+  line-height: 20px
+  color: $article-text-color
+
+.fast-support__link
+  display: block
+  margin-left: 120px
+  margin-top: 23px
+  text-decoration: none
+  font-family: $font-article
+  font-size: 13px
+  color: black
+  cursor: pointer
+
+.fast-support__link:hover
+  color: $hover-collor
+
+  // CONTENT our-services
+
+.our-services
+  height: 500px
+  background-color: $blocks-collor
+  margin-top: 85px
+
+.our-services__head
+  font-family: $font-article
+  font-size: 24px
+  color: #ffffff
+  padding-top: 47px
+
+// CONTENT our-services shedule services
+
+.our-services__shedule
+  position: relative
+  margin-top: 54px
+  float: left
+
+.our-services__shedule__img-hover
+  display: none
+
+.our-services__shedule__link:hover .our-services__shedule__img-hover
+  display: block
+  position: absolute
+  top: 0px
+
+.our-services__shedule__text
+  margin-top: 33px
+  margin-left: 52px
+  font-family: $font-article
+  color: #ffffff
+  font-size: 16px
+
+.our-services__shedule__link
+  text-decoration: none
+
+.our-services__shedule__link:hover .our-services__shedule__text
+  color: #f4b60d
+
+// CONTENT our-services preventive maintence
+
+.our-services__preventive-maintence
+  position: relative
+  margin-top: 54px
+  margin-left: 40px
+  float: left
+
+.our-services__preventive-maintence__img-hover
+  display: none
+
+.our-services__preventive-maintence__link:hover .our-services__preventive-maintence__img-hover
+  display: block
+  position: absolute
+  top: 0px
+
+.our-services__preventive-maintence__text
+  margin-top: 33px
+  margin-left: 52px
+  font-family: $font-article
+  color: #ffffff
+  font-size: 16px
+
+.our-services__preventive-maintence__link
+  text-decoration: none
+
+.our-services__preventive-maintence__link:hover .our-services__preventive-maintence__text
+  color: #f4b60d
+
+// CONTENT our-services tire wheel services
+
+.our-services__tire-weel
+  position: relative
+  margin-top: 54px
+  margin-left: 40px
+  float: left
+
+.our-services__tire-weel__img-hover
+  display: none
+
+.our-services__tire-weel__link:hover .our-services__tire-weel__img-hover
+  display: block
+  position: absolute
+  top: 0px
+
+.our-services__tire-weel__text
+  margin-top: 33px
+  margin-left: 52px
+  font-family: $font-article
+  color: #ffffff
+  font-size: 16px
+
+.our-services__tire-weel__link
+  text-decoration: none
+
+.our-services__tire-weel__link:hover .our-services__tire-weel__text
+  color: #f4b60d
+
+// CONTENT our-services repair services
+
+.our-services__repair-services
+  position: relative
+  margin-top: 54px
+  margin-left: 40px
+  float: left
+
+.our-services__repair-services__img-hover
+  display: none
+
+.our-services__repair-services__link:hover .our-services__repair-services__img-hover
+  display: block
+  position: absolute
+  top: 0px
+
+.our-services__repair-services__text
+  margin-top: 33px
+  margin-left: 52px
+  font-family: $font-article
+  color: #ffffff
+  font-size: 16px
+
+.our-services__repair-services__link
+  text-decoration: none
+
+.our-services__repair-services__link:hover .our-services__repair-services__text
+  color: #f4b60d
+
+// NEWS
+
+.latest-news
+  float: left
+
+.news-bg
+  height: 543px
+  background-color: #f7f7f7
+
+.latest-news__news
+  font-family: $font-article
+  font-size: 24px
+  color: $blocks-collor
+  padding-top: 60px
+
+// NEWS advanced
+
+.latest-news__advanced
+  width: 560px
+  position: relative
+
+.latest-news__advanced__img
+  display: block
+  margin-top: 46px
+  float: left
+
+.latest-news__advanced__link-machinery
+  font-family: $font-article
+  color: $blocks-collor
+  text-decoration: none
+  font-size: 16px
+
+.latest-news__advanced__link-machinery:hover
+  color: $hover-collor
+
+.latest-news__advanced__cms
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.link-cms
+  text-decoration: none
+  color: $hover-collor
+
+.link-cms-number
+  text-decoration: none
+  color: $hover-collor
+
+.latest-news__advanced__head-links
+  line-height: 22px
+  padding-top: 50px
+  margin-left: 182px
+
+.latest-news__advanced__text
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+  line-height: 20px
+  margin-left: 182px
+  margin-top: 22px
+
+.latest-news__advanced__absolute-img
+  position: absolute
+  top: 58px
+  left: -17px
+
+// NEWS powerful
+
+.latest-news__powerful
+  width: 560px
+  position: relative
+
+.latest-news__powerful__img
+  display: block
+  margin-top: 30px
+  float: left
+
+.latest-news__powerful__link-machinery
+  font-family: $font-article
+  color: $blocks-collor
+  text-decoration: none
+  font-size: 16px
+
+.latest-news__powerful__link-machinery:hover
+  color: $hover-collor
+
+.latest-news__powerful__cms
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.link-cms
+  text-decoration: none
+  color: $hover-collor
+
+.link-cms-number
+  text-decoration: none
+  color: $hover-collor
+
+.latest-news__powerful__head-links
+  line-height: 22px
+  padding-top: 34px
+  margin-left: 182px
+
+.latest-news__powerful__text
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+  line-height: 20px
+  margin-left: 182px
+  margin-top: 22px
+
+.latest-news__powerful__absolute-img
+  position: absolute
+  top: 42px
+  left: -17px
+
+// NEWS banners place
+
+.banners-place
+  float: left
+
+.banners-place__text
+  font-family: $font-article
+  font-size: 24px
+  color: $blocks-collor
+  padding-top: 60px
+
+#accordion
+  margin-top: 46px
+  margin-left: 40px
+
+.ui-accordion
+  width: 559px
+
+#accordion .ui-state-default
+  background: white
+  border-top-right-radius: 0px
+  border-top-left-radius: 0px
+  border-bottom-right-radius: 0px
+  border-bottom-left-radius: 0px
+
+#accordion .ui-accordion-header
+  font-size: 13px
+  font-family: $font-article
+  text-transform: uppercase
+  margin: 3px 0px 0px 0px
+  padding: 12px 0px 12px 50px
+
+#accordion .ui-accordion-content
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+  line-height: 20px
+  padding-bottom: 37px
+  padding-top: 25px
+
+#accordion .ui-state-active
+  background: #f4b60d
+  border: none
+  color: white
+
+#accordion .ui-corner-top
+  border-top-right-radius: 0px
+  border-top-left-radius: 0px
+
+#accordion .ui-widget-content
+  border: none
+  background: none
+
+// SPONSORS
+
+.sponsors__block
+  height: 240px
+
+.sponsors__block__img
+  margin-top: 86px
+  margin-left: 23px
+
+//NAVIGATION LINKS
+
+.navigation-links
+ height: 325px
+ background-color: $blocks-collor
+
+//NAVIGATION LINKS social-links
+
+.social-links
+  padding-top: 63px
+  float: left
+
+.social-links__head
+  font-family: $font-article
+  font-size: 16px
+  color: #f7f7f7
+  text-transform: uppercase
+
+.social-links__social
+  width: 260px
+  margin-top: 40px
+
+.social-links__link
+  display: block
+  border-bottom: 1px $border-color solid
+  line-height: 34px
+
+.social-links__link:last-child
+  border-bottom: none
+
+.social-links__link a
+  text-decoration: none
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.social-links__link a:hover
+  color: $hover-collor
+
+//NAVIGATION LINKS links
+
+.links-links
+  padding-top: 63px
+  float: left
+  margin-left: 40px
+
+.links-links__head
+  font-family: $font-article
+  font-size: 16px
+  color: #f7f7f7
+  text-transform: uppercase
+
+.links-links__links
+  width: 260px
+  margin-top: 40px
+
+.links-links__link
+  display: block
+  border-bottom: 1px $border-color solid
+  line-height: 34px
+
+.links-links__link:last-child
+  border-bottom: none
+
+.links-links__link a
+  text-decoration: none
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.links-links__link a:hover
+  color: $hover-collor
+
+//NAVIGATION LINKS blogroll
+
+.blogroll-links
+  padding-top: 63px
+  float: left
+  margin-left: 40px
+
+.blogroll-links__head
+  font-family: $font-article
+  font-size: 16px
+  color: #f7f7f7
+  text-transform: uppercase
+
+.blogroll-links__links
+  width: 260px
+  margin-top: 40px
+
+.blogroll-links__link
+  display: block
+  border-bottom: 1px $border-color solid
+  line-height: 34px
+
+.blogroll-links__link:last-child
+  border-bottom: none
+
+.blogroll-links__link a
+  text-decoration: none
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.blogroll-links__link a:hover
+  color: $hover-collor
+
+//NAVIGATION LINKS about us
+
+.aboutus-links
+  padding-top: 63px
+  float: left
+  margin-left: 40px
+
+.aboutus-links__head
+  font-family: $font-article
+  font-size: 16px
+  color: #f7f7f7
+  text-transform: uppercase
+
+.aboutus-links__links
+  width: 260px
+  margin-top: 40px
+
+.aboutus-links__link
+  display: block
+  border-bottom: 1px $border-color solid
+  line-height: 34px
+
+.aboutus-links__link:last-child
+  border-bottom: none
+
+.aboutus-links__link a
+  text-decoration: none
+  font-family: Arial
+  font-size: 13px
+  color: $article-text-color
+
+.aboutus-links__link a:hover
+  color: $hover-collor
+
+//FOOTER
+
+.footer
+  height: 60px
+  background-color: $footer-bg-color
+
+.footer__address
+  width: 300px
+  padding-top: 22px
+  float: left
+
+.genericon-location
+  color: $article-text-color
+  float: left
+
+.footer__address__text
+  font-family: Arial
+  font-size: 12px
+  color: $article-text-color
+  padding-top: 2px
+
+.genericon-phone
+  color: $article-text-color
+  float: left
+
+.footer__phone
+  width: 120px
+  padding-top: 22px
+  float: left
+  margin-left: 30px
+
+.footer__phone__text
+  font-family: Arial
+  font-size: 12px
+  color: $article-text-color
+  padding-top: 2px
+
+.genericon-mail
+  color: $article-text-color
+  float: left
+
+.footer__mail
+  width: 145px
+  padding-top: 22px
+  float: left
+  margin-left: 41px
+
+.footer__mail__text
+  font-family: Arial
+  font-size: 12px
+  color: #868789
+  padding-top: 2px
+
+.footer__copy
+  width: 108px
+  padding-top: 22px
+  float: right
+
+.footer__copy__text
+  font-family: Arial
+  font-size: 12px
+  color: #868789
+  padding-top: 2px
