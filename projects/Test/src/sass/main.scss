@@ -2,16 +2,46 @@
 @import "fonts";
 
 /* GLOBAL */
-
 .wrapper{
   margin: 0 auto;
   min-width: 320px;
+}
+
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%
 }
 
 /* HEADER */
 .header{
   background: url(../img/header.jpg) top center no-repeat;
   background-size: cover;
+}
+
+.login{
+  padding-top: 20px;
+}
+
+.login__item{
+  display: inline-block;
+}
+
+.login__link{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 700;
+  padding: 12px 18px 10px 19px;
+}
+
+.login__link:hover{
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 8px 16px 8px 17px;
 }
 
 .logo__link{
@@ -22,8 +52,47 @@
   text-transform: uppercase;
 }
 
+.promo__title{
+  font-size: 30px;
+  font-family: 'Montserrat Bold';
+  color: white;
+  text-transform: uppercase;
+}
+
+.promo__text{
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.promo__button{
+  background: #ff4e50;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 51px;
+  font-family: 'Montserrat Bold';
+}
+
 @media (max-width: 667px) {
   .wrapper{
     max-width: 667px;
+    text-align: center;
   }
+
+  .logo{
+    margin-top: 127px;
+    margin-bottom: 40px;
+  }
+
+  .promo__text{
+    margin-top: 20px;
+  }
+  .promo__button{
+  margin-top: 19px;
+  margin-bottom: 138px;
+  }
+
 }
