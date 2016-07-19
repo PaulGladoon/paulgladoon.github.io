@@ -1,0 +1,253 @@
+/* GLOBAL */
+.wrapper{
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%
+}
+
+/* HEADER SECTION */
+.header{
+  background: url(../img/header.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+// .login{
+//   padding-top: 20px;
+// }
+
+.login__item{
+  display: inline-block;
+}
+
+.login__link{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 700;
+  padding: 12px 18px 10px 19px;
+}
+
+.login__link:hover{
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 8px 16px 8px 17px;
+}
+
+.logo__link{
+  font-family: 'Montserrat Bold';
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.promo__title{
+  font-size: 30px;
+  font-family: 'Montserrat Bold';
+  color: white;
+  text-transform: uppercase;
+}
+
+.promo__text{
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.promo__button{
+  background: #ff4e50;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 51px;
+  font-family: 'Montserrat Bold';
+}
+
+/* ABOUT SECTION */
+
+.about__title{
+  font-size: 22px;
+  font-family: 'Montserrat Bold';
+  color: #333333;
+}
+
+.about__item__wrapper{
+  position: absolute;
+  top: 0;
+}
+
+.about__item__num{
+  display: inline-block;
+  margin-left: 2px;
+  padding: 7px 12px 5px 14px;
+  background: #ff4e50;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Montserrat Bold';
+}
+
+.about__item__title{
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'Montserrat Bold';
+  color: white;
+}
+
+.about__item__text{
+  color: #ccc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* PARTNER SECTION */
+
+.partner__title{
+  font-size: 22px;
+  font-family: 'Montserrat Bold';
+  color: #333333;
+}
+
+.partner__item__title{
+  font-size: 14px;
+  font-family: 'Montserrat Bold';
+  color: #333333;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.partner__item__image{
+  width: 120px;
+  height: 122px;
+}
+
+.partner__item__text{
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #666666;
+  width: 77%;
+  line-height: 1.2;
+}
+
+.partner__button{
+  background: white;
+  border: 2px solid #ff4e50;
+  border-radius: 30px;
+  color: #ff4e50;
+  cursor: pointer;
+  font-family: 'Montserrat Bold';
+  font-size: 14px;
+  padding: 10px 71px;
+}
+
+/* DISCOVER SECTION */
+
+.discover__title{
+  color: #333;
+  font-family: 'Montserrat Bold';
+  font-size: 22px;
+  line-height: 25px;
+}
+
+/* SEARCH SECTION */
+
+.search__title{
+  color: #333;
+  font-family: 'Montserrat Bold';
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.search__text{
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.search__field{
+  height: 40px;
+  padding-left: 12px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 1px 0px 0px #eee;
+  box-sizing: border-box;
+  color: #999;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.search__button{
+  height: 40px;
+  background: #ff4e50;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Montserrat Bold';
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+  border-top: 4px solid #ff4e50;
+}
+
+.footer__title{
+  display: block;
+  color: #ff4e50;
+  font-family: 'Montserrat Bold';
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__company__title{
+  color: #333;
+  font-family: 'Montserrat Bold';
+  font-size: 14px;
+}
+
+.footer__company__link{
+  color: #666;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer__partners{
+  color: #333;
+  font-family: 'Montserrat Bold';
+  font-size: 14px;
+}
+
+.footer__designed__title{
+  color: #ccc;
+  font-family: 'Montserrat Bold';
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 9px;
+}
+
+.footer__designed__logo{
+  display: block;
+}

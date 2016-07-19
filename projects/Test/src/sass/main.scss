@@ -1,436 +1,220 @@
 @import "reset";
 @import "fonts";
+@import "global";
+@import "mobile";
+@import "jquery.bxslider";
 
-/* GLOBAL */
-.wrapper{
-  margin: 0 auto;
-  min-width: 320px;
-}
+@media (max-width: 1024px) and (min-width: 768px){
 
-.clearfix:after{
-  content: '';
-  display: block;
-  clear: both;
-  height: 0;
-  width: 100%
-}
+  /* TABLET HEADER SECTION */
 
-/* HEADER SECTION */
-.header{
-  background: url(../img/header.jpg) top center no-repeat;
-  background-size: cover;
-}
-
-.login{
-  padding-top: 20px;
-}
-
-.login__item{
-  display: inline-block;
-}
-
-.login__link{
-  text-decoration: none;
-  font-size: 14px;
-  font-family: 'Montserrat';
-  color: white;
-  font-weight: 700;
-  padding: 12px 18px 10px 19px;
-}
-
-.login__link:hover{
-  border: 2px solid #fff;
-  border-radius: 30px;
-  padding: 8px 16px 8px 17px;
-}
-
-.logo__link{
-  font-family: 'Montserrat Bold';
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.promo__title{
-  font-size: 30px;
-  font-family: 'Montserrat Bold';
-  color: white;
-  text-transform: uppercase;
-}
-
-.promo__text{
-  font-size: 18px;
-  font-family: 'Roboto';
-  color: white;
-}
-
-.promo__button{
-  background: #ff4e50;
-  color: white;
-  border: 0;
-  border-radius: 30px;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 12px 51px;
-  font-family: 'Montserrat Bold';
-}
-
-/* ABOUT SECTION */
-
-.about__title{
-  font-size: 22px;
-  font-family: 'Montserrat Bold';
-  color: #333333;
-}
-
-/* PARTNER SECTION */
-
-.partner__title{
-  font-size: 22px;
-  font-family: 'Montserrat Bold';
-  color: #333333;
-}
-
-.partner__item__title{
-  font-size: 14px;
-  font-family: 'Montserrat Bold';
-  color: #333333;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.partner__item__image{
-  width: 120px;
-  height: 122px;
-  margin: 0 auto;
-}
-
-.partner__item__text{
-  font-size: 14px;
-  font-family: 'Roboto';
-  color: #666666;
-  width: 77%;
-  line-height: 1.2;
-  margin: 0 auto;
-}
-
-.partner__button{
-  background: white;
-  border: 2px solid #ff4e50;
-  border-radius: 30px;
-  color: #ff4e50;
-  cursor: pointer;
-  font-family: 'Montserrat Bold';
-  font-size: 14px;
-  padding: 10px 71px;
-}
-
-/* DISCOVER SECTION */
-
-.discover__title{
-  color: #333;
-  font-family: 'Montserrat Bold';
-  font-size: 22px;
-  line-height: 25px;
-}
-
-/* SEARCH SECTION */
-
-.search__title{
-  color: #333;
-  font-family: 'Montserrat Bold';
-  font-size: 22px;
-  line-height: 25px;
-}
-
-.search__text{
-  font-family: 'Roboto';
-  font-size: 18px;
-}
-
-.search__field{
-  height: 40px;
-  padding-left: 12px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0px 1px 0px 0px #eee;
-  box-sizing: border-box;
-  color: #999;
-  font-family: 'Roboto';
-  font-size: 14px;
-}
-
-.search__button{
-  height: 40px;
-  background: #ff4e50;
-  border: 0;
-  border-radius: 20px;
-  color: white;
-  cursor: pointer;
-  font-family: 'Montserrat Bold';
-  font-size: 14px;
-  font-weight: 700;
-}
-
-/* FOOTER SECTION */
-
-.footer{
-  border-top: 4px solid #ff4e50;
-}
-
-.footer__title{
-  display: block;
-  color: #ff4e50;
-  font-family: 'Montserrat Bold';
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.footer__company__title{
-  color: #333;
-  font-family: 'Montserrat Bold';
-  font-size: 14px;
-}
-
-.footer__company__link{
-  color: #666;
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;
-}
-
-.footer__partners{
-  color: #333;
-  font-family: 'Montserrat Bold';
-  font-size: 14px;
-}
-
-.footer__designed__title{
-  color: #ccc;
-  font-family: 'Montserrat Bold';
-  font-size: 10px;
-  letter-spacing: 1px;
-  text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 9px;
-}
-
-.footer__designed__logo{
-  display: block;
-}
-
-
-
-
-
-// @media (max-width:667px) {
-  /* MOBILE HEADER SECTION */
   .wrapper{
-    max-width: 667px;
+    min-width: 768px;
+    max-width: 1024px;
   }
 
   .header{
-    text-align: center;
     width: 100%;
-  }
-  .login{
-    padding-top: 20px;
+    height: 100%;
+    padding-top: 46px;
+    padding-bottom: 234px;
   }
 
-  .logo{
-    margin-top: 127px;
-    margin-bottom: 40px;
+  .login{
+    float: right;
+    margin-right: 6.5%;
+  }
+
+  .logo__link{
+    margin-left: 6.5%;
+  }
+
+  .promo{
+    margin-top: 145px;
+    text-align: center;
+  }
+
+  .promo__title{
+    font-size: 52px;
+    line-height: 1.2;
+    margin: 0 18%;
   }
 
   .promo__text{
-    margin-top: 20px;
-    margin: 20px 15% 0px 15%;
+    font-size: 24px;
+    margin: 3.8% 15% 1.8%;
   }
 
   .promo__button{
     margin-top: 19px;
-    margin-bottom: 138px;
+    padding: 12px 23px;
   }
 
-  /* MOBILE ABOUT SECTION */
+  /* TABLET ABOUT SECTION */
 
   .about{
-    width: 94%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 97px auto;
+    margin-bottom: 40px;
   }
 
-  .about__title{
-    padding-top: 36px;
-    text-align: center;
+  .about__desktop{
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .about__mobile{
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 15px;
+    display: none;
   }
 
-  .about__mobile__item--wrapper{
-    padding: 69px 20px 20px;
+  .about__title{
+    text-align: center;
+    margin-bottom: 35px;
   }
 
-  .step--one{
-    background: url(../img/aboutMobileStep1.jpg) no-repeat;
-    margin-bottom: 2px
-  }
-
-  .step--two{
-    background: url(../img/aboutMobileStep2.jpg) no-repeat;
-    padding-top: 30px;
-  }
-
-  .step--three{
-    background: url(../img/aboutMobileStep3.jpg) no-repeat;
-  }
-
-  .about__mobile__item__num{
+  .about__item{
+    width: 30.7%;
+    margin-right: 2.6%;
     display: inline-block;
-    margin-left: 2px;
-    padding: 7px 12px 5px 14px;
-    background: #ff4e50;
-    border-radius: 10px;
-    font-weight: 400;
-    font-size: 10px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Montserrat Bold';
-  }
-  .about__mobile__item__title{
-    font-size: 24px;
-    line-height: 1.2;
-    font-family: 'Montserrat Bold';
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: 100%;
   }
 
-  .about__mobile__item__text{
-    color: #ccc;
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 16px;
+  .about__item--first{
+    margin-left: 1.5%;
   }
 
-  /* MOBILE PARTNER SECTION */
+  .about__item--last{
+    margin-right: 0;
+  }
+
+  .about__item__img{
+    min-height: 400px;
+    min-width: 236px;
+  }
+
+  .bx-wrapper .bx-viewport{
+    border: 0px;
+    box-shadow: none;
+  }
+
+  .bx-wrapper .bx-pager{
+    display: none;
+  }
+
+  .about__item__wrapper{
+    padding-top: 215px;
+    padding-left: 7.6%;
+    padding-right: 7.6%;
+  }
+
+  .about__item__title{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about__item__num--step2{
+    margin-top: 43px;
+  }
+
+  /* TABLET PARTNER SECTION */
 
   .partner{
-    width: 87.5%;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
   }
 
   .partner__title{
-    text-align: center;
-    margin-top: 39px;
-  }
-
-  .partner__item{
-    margin-bottom: 29px;
+    margin-bottom: 32px;
   }
 
   .partner__list{
-    margin-top: 15px;
-  }
-
-  /* MOBILE DISOVER SECTION */
-
-  .discover{
-    width: 94%;
-    margin: 38px auto;
-  }
-
-  .discover__title{
+    margin-left: 17%;
+    margin-right: 16.5%;
+    margin-bottom: 30px;
     text-align: center;
   }
 
-  /* MOBILE SEARCH SECTION */
+  .partner__item{
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+  }
 
-  .search{
-    width: 87.5%;
+  .partner__item__image{
     margin: 0 auto;
   }
 
-  .search__title{
+  .partner__item__text{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .partner__button{
+    padding: 10px 29px;
+  }
+
+  /* TABLET DISCOVER SECTION */
+
+  .discover{
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  /* TABLET DISCOVER SECTION */
+
+  .search{
     text-align: center;
   }
 
   .search__text{
-    text-align: center;
-    margin: 13px 0 17px;
+    margin: 35px 0 35px;
   }
 
   .search__field{
-    width: 100%;
+    width: 31%;
+    margin-right: 0.9%;
   }
 
   .search__button{
-    width: 100%;
-    margin: 10px auto;
+    padding: 0 3.1%;
   }
 
-  /* MOBILE FOOTER SECTION */
+  /* TABLET FOOTER SECTION */
 
   .footer{
-    width: 100%;
-    margin-top: 30px;
+    margin-top: 98px;
   }
 
   .footer__box{
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-right: 5.2%;
+    margin-left: 5.2%;
+    margin-bottom: 37px;
   }
 
-  .footer__title{
-    text-align: center;
+  .footer__logo{
+    float: left;
   }
 
   .footer__company{
-    width: 60.6%;
-    margin: 19px auto;
-  }
-
-  .footer__company__title{
-    text-align: center;
-  }
-
-  .footer__company__list{
-    margin: 0 auto;
-    width: 195px;
-  }
-
-  .footer__company__item{
-    display: inline-block;
-    margin-right: 4.8%;
-  }
-
-  .footer__company__item:last-child{
-    margin-right: 0;
+    float: left;
+    margin: 0 15% 0 12%;
   }
 
   .footer__partners{
-    text-align: center;
+    float: left;
   }
 
   .footer__designed{
-    margin-top: 19px;
-    padding-bottom: 17px;
+    float: right;
   }
 
-  .footer__designed__logo{
-    text-align: center;
+  .footer__company__title{
+    margin-bottom: 12px;
   }
 
+  .footer__designed__title{
+    text-align: right;
+  }
 
-
-// }
+}
