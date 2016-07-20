@@ -1,16 +1,10 @@
-@import "reset";
-@import "fonts";
-@import "global";
-@import "mobile";
-@import "jquery.bxslider";
-@import "tablet";
+@media (max-width: 1024px) and (min-width: 768px){
 
-@media (min-width: 1025px){
-
-  /* DESKTOP HEADER SECTION */
+  /* TABLET HEADER SECTION */
 
   .wrapper{
-    min-width: 1025px;
+    min-width: 768px;
+    max-width: 1024px;
   }
 
   .header{
@@ -22,39 +16,35 @@
 
   .login{
     float: right;
-    margin-right: 17.3%;
+    margin-right: 6.5%;
   }
 
   .logo__link{
-    margin-left: 17.3%;
+    margin-left: 6.5%;
   }
 
   .promo{
-    margin-top: 155px;
+    margin-top: 145px;
     text-align: center;
   }
 
   .promo__title{
     font-size: 52px;
     line-height: 1.2;
-    margin: 0 30%;
+    margin: 0 18%;
   }
 
   .promo__text{
     font-size: 24px;
-    padding-top: 25px;
+    margin: 3.8% 15% 1.8%;
   }
 
   .promo__button{
-    margin-top: 35px;
+    margin-top: 19px;
     padding: 12px 23px;
   }
 
-  /* DESKTOP ABOUT SECTION */
-
-  .about__mobile{
-    display: none;
-  }
+  /* TABLET ABOUT SECTION */
 
   .about{
     width: 100%;
@@ -63,8 +53,12 @@
   }
 
   .about__desktop{
-    max-width: 940px;
+    max-width: 768px;
     margin: 0 auto;
+  }
+
+  .about__mobile{
+    display: none;
   }
 
   .about__title{
@@ -73,14 +67,14 @@
   }
 
   .about__item{
-    width: 31.9%;
-    margin-right: 1.72%;
+    width: 30.7%;
+    margin-right: 2.6%;
     display: inline-block;
     height: 100%;
   }
 
   .about__item--first{
-    margin-left: 0;
+    margin-left: 1.5%;
   }
 
   .about__item--last{
@@ -89,7 +83,7 @@
 
   .about__item__img{
     min-height: 400px;
-    min-width: 300px;
+    min-width: 236px;
   }
 
   .bx-wrapper .bx-viewport{
@@ -102,7 +96,9 @@
   }
 
   .about__item__wrapper{
-    padding: 223px 10px 5px 20px;
+    padding-top: 215px;
+    padding-left: 7.6%;
+    padding-right: 7.6%;
   }
 
   .about__item__title{
@@ -111,15 +107,14 @@
   }
 
   .about__item__num--step2{
-    margin-top: 28px;
+    margin-top: 43px;
   }
 
-  /* DESKTOP PARTNER SECTION */
+  /* TABLET PARTNER SECTION */
 
   .partner{
-    width: 65.2%;
+    width: 100%;
     text-align: center;
-    margin: 0 auto;
   }
 
   .partner__title{
@@ -127,18 +122,16 @@
   }
 
   .partner__list{
-    margin-bottom: 38px;
+    margin-left: 17%;
+    margin-right: 16.5%;
+    margin-bottom: 30px;
     text-align: center;
   }
 
   .partner__item{
     float: left;
-    width: 23.4%;
-    margin-right: 1.6%;
-  }
-
-  .partner__item--last{
-    margin-right: 0;
+    width: 50%;
+    margin-bottom: 5%;
   }
 
   .partner__item__image{
@@ -146,7 +139,7 @@
   }
 
   .partner__item__text{
-    width: 97.3%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -154,14 +147,14 @@
     padding: 10px 29px;
   }
 
-  /* DESKTOP DISCOVER SECTION */
+  /* TABLET DISCOVER SECTION */
 
   .discover{
     margin-top: 100px;
     text-align: center;
   }
 
-  /* DESKTOP SEARCH SECTION */
+  /* TABLET DISCOVER SECTION */
 
   .search{
     text-align: center;
@@ -172,15 +165,15 @@
   }
 
   .search__field{
-    width: 18.9%;
-    margin-right: 0.5%;
+    width: 31%;
+    margin-right: 0.9%;
   }
 
   .search__button{
-    padding: 0 2%;
+    padding: 0 3.1%;
   }
 
-  /* DESKTOP FOOTER SECTION */
+  /* TABLET FOOTER SECTION */
 
   .footer{
     margin-top: 98px;
@@ -188,8 +181,8 @@
 
   .footer__box{
     margin-top: 35px;
-    margin-right: 17.3%;
-    margin-left: 17.3%;
+    margin-right: 5.2%;
+    margin-left: 5.2%;
     margin-bottom: 37px;
   }
 
@@ -199,7 +192,7 @@
 
   .footer__company{
     float: left;
-    margin: 0 9.8% 0 10.1%;
+    margin: 0 15% 0 12%;
   }
 
   .footer__partners{
@@ -217,7 +210,5 @@
   .footer__designed__title{
     text-align: right;
   }
-
-
 
 }
