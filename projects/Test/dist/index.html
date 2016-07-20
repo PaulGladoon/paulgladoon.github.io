@@ -209,6 +209,17 @@
       </section><!-- partner -->
       <section class="discover">
         <h1 class="discover__title">Discover holiday activity ideas</h1>
+
+        <script type="text/template" id="container">
+            <div class="grid">
+                <% for (var i = 0; i < 10; i++) { %>
+                <figure class="grid-item">
+                    <img src="<%= hits[i].webformatURL %>" alt="picture" class="discover__img"/>
+                    <figcaption class="discover__img--title"><%= hits[i].tags.split(', ')[1] %></figcaption>
+                </figure>
+                <% } %>
+            </div>
+        </script>
       </section><!-- discover -->
       <section class="search">
         <h1 class="search__title">Discover holiday activity ideas</h1>

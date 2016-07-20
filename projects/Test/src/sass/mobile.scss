@@ -134,6 +134,34 @@
 
   .discover__title{
     text-align: center;
+    margin-bottom: 14px;
+  }
+
+  .grid{
+    width: 100%;
+  }
+
+  .grid-item{
+    width: 100%;
+    margin-bottom: 9px;
+  }
+
+  .discover__img {
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .discover__img--title {
+    width: 100%;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
   }
 
   /* MOBILE SEARCH SECTION */
