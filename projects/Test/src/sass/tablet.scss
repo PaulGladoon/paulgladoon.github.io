@@ -10,7 +10,7 @@
   .header{
     width: 100%;
     height: 100%;
-    padding-top: 46px;
+    padding-top: 49px;
     padding-bottom: 234px;
   }
 
@@ -21,10 +21,11 @@
 
   .logo__link{
     margin-left: 6.5%;
+    letter-spacing: 1px;
   }
 
   .promo{
-    margin-top: 145px;
+    margin-top: 146px;
     text-align: center;
   }
 
@@ -100,18 +101,19 @@
   }
 
   .about__item__wrapper{
-    padding-top: 215px;
-    padding-left: 7.6%;
-    padding-right: 7.6%;
+    padding-top: 210px;
+    padding-left: 9.7%;
+    padding-right: 5.6%;
   }
 
   .about__item__title{
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 15px;
+    margin-bottom: 13px;
   }
 
   .about__item__num--step2{
-    margin-top: 43px;
+    margin-top: 48px;
+    margin-left: 0px;
   }
 
   /* TABLET PARTNER SECTION */
@@ -147,6 +149,10 @@
     margin: 0 auto;
   }
 
+  .partner__item__title{
+    margin-top: 18px;
+  }
+
   .partner__button{
     padding: 10px 29px;
   }
@@ -154,7 +160,7 @@
   /* TABLET DISCOVER SECTION */
 
   .discover{
-    margin: 100px auto 97px;
+    margin: 100px auto 92px;
     width: 97.5%;
   }
 
@@ -212,13 +218,13 @@
   /* TABLET FOOTER SECTION */
 
   .footer{
-    margin-top: 98px;
+    margin-top: 103px;
   }
 
   .footer__box{
-    margin-top: 35px;
+    margin-top: 38px;
     margin-right: 5.2%;
-    margin-left: 5.2%;
+    margin-left: 5%;
     margin-bottom: 37px;
   }
 
