@@ -450,6 +450,7 @@ table {
   font-size: 18px; }
 
 .search__field {
+  display: inline-block;
   height: 40px;
   padding-left: 12px;
   background-color: white;
