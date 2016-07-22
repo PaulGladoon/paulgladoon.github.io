@@ -462,7 +462,7 @@ table {
   font-size: 14px; }
 
 .search__button {
-  display: block;
+  display: inline-block;
   margin-top: 20px;
   height: 40px;
   background: #ff4e50;
