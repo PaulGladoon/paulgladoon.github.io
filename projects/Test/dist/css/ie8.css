@@ -450,7 +450,6 @@ table {
   font-size: 18px; }
 
 .search__field {
-  display: inline-block;
   height: 40px;
   padding-left: 12px;
   background-color: white;
@@ -463,8 +462,6 @@ table {
   font-size: 14px; }
 
 .search__button {
-  display: inline-block;
-  margin-top: 20px;
   height: 40px;
   background: #ff4e50;
   border: 0;
