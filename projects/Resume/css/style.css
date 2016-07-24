@@ -14,7 +14,6 @@
   color: white;
   float: left;
   width: 365px;
-  height: 100%;
   border-right: 2px black solid;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -108,9 +107,8 @@
 /* SKILLS SECTION */
 
 .skills{
-  float: left;
+  float: right;
   width: 1000px;
-  height: 100%;
 }
 
 .skills__item{
