@@ -1,1 +1,1 @@
-
+Created jQuery plugin
