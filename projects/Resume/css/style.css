@@ -5,15 +5,15 @@
 
 /* ABOUT SECTION */
 
-.wrapper{
-  width: 1365px;
-}
+/*.wrapper{*/
+/*  width: 1365px;*/
+/*}*/
 
 .about{
   background-color: #171e26;
   color: white;
   float: left;
-  width: 365px;
+  width: 30%;
   border-right: 2px black solid;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -107,8 +107,8 @@
 /* SKILLS SECTION */
 
 .skills{
-  float: right;
-  width: 1000px;
+  float: left;
+  width: 70%;
 }
 
 .skills__item{
