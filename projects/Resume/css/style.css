@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ABOUT SECTION */
+
+.about{
+  background-color: #171e26;
+  color: white;
+  float: left;
+  width: 30%;
+  height: 100%;
+  border-right: 2px black solid;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about__item{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.about__name{
+  text-transform: uppercase;
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about__surename{
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about__img{
+  margin-top: 35px;
+}
+
+.about__my__img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 22px;
+}
+
+.about__objective{
+  border-bottom: 2px white dotted;
+  font-size: 14px;
+  margin-top: 35px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+.about__contacts{
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.about__mail{
+  font-size: 19px;
+}
+
+.about__mail{
+  padding-bottom: 15px;
+  border-bottom: 2px white dotted;
+  margin-top: 10px
+}
+
+.color__contacts{
+  color: #e3cb6a;
+}
+
+.mailColour{
+  color: #e3cb6a;
+}
+
+.res{
+  margin-right: 32px;
+}
+
+.mob{
+  margin-right: 57px;
+}
+
+.sk{
+  margin-right: 64px;
+}
+
+.git{
+  margin-right: 85px;
+}
+
+.linked{
+  margin-right: 45px;
+}
+
+.about__git__link{
+  color: white;
+}
+
+/* SKILLS SECTION */
+
+.skills{
+  float: left;
+  width: 70%;
+  height: 100%;
+}
