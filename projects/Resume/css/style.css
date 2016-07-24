@@ -13,7 +13,7 @@
   background-color: #171e26;
   color: white;
   float: left;
-  width: 30%;
+  width: 365px;
   height: 100%;
   border-right: 2px black solid;
   box-sizing: border-box;
@@ -109,7 +109,7 @@
 
 .skills{
   float: left;
-  width: 70%;
+  width: 1000px;
   height: 100%;
 }
 
