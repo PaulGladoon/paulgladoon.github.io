@@ -103,6 +103,21 @@
   color: white;
 }
 
+.about__pg{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.PG-text{
+  font-size: 75px;
+  color: #171e26;
+  text-align: center;
+  padding-top: 50px;
+}
+
 /* SKILLS SECTION */
 
 .skills{
