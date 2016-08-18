@@ -1,0 +1,18 @@
+$global-fonts:      'Open Sans', sans-serif;
+$main-text-fonts:   'Helvetica Neue Medium', sans-serif;
+$prefooter-font:    'Helvetica Neue Regular', sans-serif;
+
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url('../fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-medium-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
