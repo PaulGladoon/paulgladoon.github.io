@@ -7,4 +7,4 @@ Tech Task for KONTORA Production
 5. Gulp
 6. Gracefull degradation
 7. Pixel Perfect Chrome latest
-8. Gulp
+
