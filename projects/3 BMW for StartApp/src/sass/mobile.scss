@@ -1,0 +1,91 @@
+@media (max-width:767px) and (min-width: 320px){
+  /* MOBILE HEADER */
+
+  .menu__box{
+    margin-left: 0;
+  }
+
+  .menu__item{
+    padding-left: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .menu__link{
+    font-size: 8px
+  }
+
+  .menu__search{
+    margin-top: 2px;
+    width: 4%;
+    margin-right: 2%;
+  }
+
+  .buy-form__item:nth-child(1){
+    display: none;
+  }
+  .buy-form__item:nth-child(3){
+    display: none;
+  }
+
+  .buy-form{
+    height: 33px;
+    margin-top: -45%;
+  }
+
+  .buy-form__item{
+    padding-top: 0px;
+  }
+
+  .bx-wrapper .bx-controls-direction a{
+    margin-top: 18px;
+  }
+
+  .bx-wrapper .bx-pager{
+    display: none;
+  }
+
+  .slider__text{
+    margin-top: -29px;
+  }
+
+  /* MOBILE CONTENT */
+
+  .content-box{
+    float: none;
+    max-width: 96%;
+  }
+
+  .content-box__buy__price--value{
+    font-size: 15px;
+  }
+
+  /* SIDEBAR CONTENT */
+
+  .sidebar__btn--one{
+    top: 25px;
+    left: 0px;
+  }
+
+  .sidebar__btn--two{
+    top: 30px;
+    left: 0px;
+  }
+
+  .sidebar__btn--three{
+    top: 30px;
+    left: -20px;
+  }
+
+  .sidebar__btn--four{
+    top: 30px;
+    left: 0px;
+  }
+
+  .sidebar__btn--five{
+    top: 60px;
+    left: 20px;
+  }
+
+
+}

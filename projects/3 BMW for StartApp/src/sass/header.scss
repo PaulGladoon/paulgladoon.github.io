@@ -1,0 +1,85 @@
+// * HEADER * //
+
+.header{
+  position: relative;
+}
+
+.slider__img{
+  width: 100%;
+  height: 100%;
+}
+
+.slider__text{
+  font-family: 'Museo Sanscyrl900';
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -21px;
+  width: 100%;
+}
+
+.menu{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #222120;
+  opacity: 0.8;
+}
+
+.menu__box{
+  margin-left: 5.3%;
+  float: left;
+}
+
+.menu__item{
+  display: inline-block;
+  padding-left: 21px;
+  padding-top: 23px;
+  padding-bottom: 19px;
+}
+
+.menu__link{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Museo Sanscyrl300';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu__search{
+  float: right;
+  margin-top: 18px;
+  margin-right: 18.9%;
+}
+
+.menu__search{
+  cursor: pointer;
+}
+
+.buy-form{
+  background-image: url(../img/buybox.png);
+  width: 50px;
+  height: 150px;
+  // position: absolute;
+  // left: 96.5%;
+  // top: 130px;
+  float: right;
+  margin-top: -43%;
+  z-index: 9999;
+  position: relative;
+}
+
+.buy-form__box{
+  margin-left: 11px;
+}
+
+.buy-form__item{
+  padding-top: 17px;
+}
+
+.buy-form__img{
+  cursor: pointer;
+}

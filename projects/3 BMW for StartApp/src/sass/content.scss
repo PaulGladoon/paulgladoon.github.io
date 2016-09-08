@@ -1,0 +1,149 @@
+// * CONTENT * //
+
+.content{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 9999;
+  margin-top: -30px
+}
+
+.content-box{
+  max-width: 45%;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(210,211,216,1);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(210,211,216,1);
+  box-shadow: 0px 0px 5px 3px rgba(210,211,216,1);
+  margin-bottom: 10px;
+  float: left;
+}
+
+.content-box{
+  margin-left: 2%;
+  margin-right: 2%;
+  // height: 646px;
+}
+
+.bike-box{
+  margin-bottom: -3px;
+  position: relative;
+}
+
+.bike-box__list{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.bike-box__item__img{
+  cursor: pointer;
+}
+
+.bike-box__item{
+  padding-bottom: 5px;
+}
+
+.bike-box__img{
+  width: 100%;
+  // margin-left: 2%;
+  // margin-right: 2%;
+  // margin-top: 10px;
+}
+
+.bike-box__img__article{
+  position: relative;
+  float: right;
+  margin-top: -71%;
+  margin-right: -5px;
+}
+
+.content-box__article__text{
+  font-family: 'Museo Sanscyrl900';
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.content-box__about{
+  padding-top: 18px;
+  background-color: #f5f6fc;
+}
+
+.content-box__about__list{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.content-box__about--right{
+  padding-bottom: 16px;
+}
+
+.content-box__about__item{
+  font-family: 'Museo Sanscyrl300';
+  font-size: 16px;
+  color: #778c99;
+  // padding-left: 2%;
+  padding-bottom: 2px;
+}
+
+.content-box__about__item::before{
+  content: '\25ba';
+  font-size: 10px;
+}
+
+.content-box__buy{
+  position: relative;
+  padding-top: 18px;
+  background-color: #f5f6fc;
+}
+
+.content-box__buy--right{
+  padding-top: 18px;
+}
+
+.content-box__buy__price{
+  padding-left: 2%;
+  font-family: 'Museo Sanscyrl900';
+  font-size: 30px;
+  color: #2e9bda;
+  float: left;
+}
+
+.content-box__buy__price--value{
+  position: absolute;
+  top: 16px;
+  font-size: 18px;
+  left: 130px;
+}
+
+// .content-box__buy__price--value--right{
+//   top: 32px;
+// }
+
+.content-box__buy__list{
+  // display: inline-block;
+  // margin-left: 37%;
+  padding-right: 2%;
+  padding-bottom: 5px;
+  float: right;
+}
+
+.content-box__buy__item{
+  display: inline-block;
+}
+
+.content-box__buy__link{
+  text-decoration: none;
+  font-family: 'Museo Sanscyrl500';
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px black solid;
+  border-color: #9bafbb;
+  color: black;
+}
+
+.content-box__buy__img{
+  cursor: pointer;
+}
