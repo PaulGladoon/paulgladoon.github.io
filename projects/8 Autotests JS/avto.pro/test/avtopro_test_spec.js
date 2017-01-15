@@ -1,5 +1,4 @@
 var home_page = require('../page/home_page.js');
-var facebook_page = require('../page/facebook_page.js');
 
 var EC = protractor.ExpectedConditions;
 
