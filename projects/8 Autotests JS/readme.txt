@@ -1,4 +1,4 @@
-Automated Testing: dou.ua
+Automated Testing:
 
 USE:
 Protractor;
