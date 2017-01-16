@@ -64,5 +64,16 @@ describe ('Positive testing of registration form', function() {
     expect(recovery_pass_page.recoveryEmailField().isPresent()).toBe(true);
   });
 
+  it('Registration of the new user with email of the containing alphabetic characters in a local part', function() {
+    home_page.enterLinkClick();
+    home_page.regLinkClick();
+    home_page.enterEmailFieldValue('qatestqa@gm.com');
+    home_page.enterPasswordFieldValue('hello123');
+    home_page.clickOnRegButton();
+    browser.sleep(3000);
+    var profileHref = profile_page.profileHrefFind()
+
+    expect(profileHref).toBe('https://avto.pro/users/profile/195923/personal/');
+  });
 
 });
