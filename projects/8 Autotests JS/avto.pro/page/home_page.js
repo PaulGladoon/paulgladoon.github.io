@@ -8,9 +8,17 @@ var home_page = function() {
     element(by.xpath('//*[@id="sign-up-form-container"]/div/form/label[1]/div[1]/input')).sendKeys(value);
   };
 
+  this.emailField = function() {
+    return element(by.xpath('//*[@id="sign-up-form-container"]/div/form/label[1]/div[1]/input'));
+  }
+
   this.enterPasswordFieldValue = function(value) {
     element(by.xpath('//*[@id="sign-up-form-container"]/div/form/label[2]/div[1]/input')).sendKeys(value);
   };
+
+  this.passwordField = function() {
+    return element(by.xpath('//*[@id="sign-up-form-container"]/div/form/label[2]/div[1]/input'));
+  }
 
   this.clickOnRegButton = function() {
     element(by.xpath('//*[@id="sign-up-form-container"]/div/form/div/button')).click();
@@ -23,4 +31,3 @@ var home_page = function() {
 };
 
 module.exports = new home_page();
-
