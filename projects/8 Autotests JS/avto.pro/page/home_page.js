@@ -1,5 +1,9 @@
 var home_page = function() {
 
+  this.enterLinkClick = function() {
+    element(by.xpath('//*[@id="secondary_sections"]/div/div[1]/ul/li[1]/a')).click();
+  }
+
   this.regLinkClick = function() {
     element(by.css('[data-target="#sign-up-form-container"]')).click();
   };
@@ -24,9 +28,6 @@ var home_page = function() {
     element(by.xpath('//*[@id="sign-up-form-container"]/div/form/div/button')).click();
   };
 
-  this.profileHrefFind = function() {
-    return element(by.xpath('//*[@id="secondary_sections"]/div/nav/div/div/ul[2]/li[2]/a')).getAttribute('href')
-  };
 
 };
 
