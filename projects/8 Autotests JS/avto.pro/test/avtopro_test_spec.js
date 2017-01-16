@@ -1,5 +1,6 @@
 var home_page = require('../page/home_page.js');
-var profile_page = require('../page/profile_page.js')
+var profile_page = require('../page/profile_page.js');
+var recovery_pass_page = require('../page/recovery_pass_page.js');
 
 var EC = protractor.ExpectedConditions;
 
@@ -42,17 +43,25 @@ describe ('Positive testing of registration form', function() {
     home_page.enterLinkClick();
     home_page.regLinkClick();
     home_page.enterPasswordFieldValue('hello123');
-    home_page.clickOnEyeOff();
+    home_page.clickOnEye();
     var passwordValue = home_page.getPasswordFieldAttr('value');
     var passwordInputTypeText = home_page.getPasswordFieldAttr('type');
 
     expect(passwordValue).toBe('hello123');
     expect(passwordInputTypeText).toBe('text');
 
-    home_page.clickOnEyeOff();
+    home_page.clickOnEye();
     var passwordInputTypePassword = home_page.getPasswordFieldAttr('type');
 
     expect(passwordInputTypePassword).toBe('password');
+  });
+
+  it ('The link to recovery of the password, form for recovery of the password, are displayed', function() {
+    home_page.enterLinkClick();
+    home_page.regLinkClick();
+    home_page.clickLinkRecoveryPass();
+
+    expect(recovery_pass_page.recoveryEmailField().isPresent()).toBe(true);
   });
 
 
