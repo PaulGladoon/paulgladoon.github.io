@@ -14,24 +14,26 @@ describe ('Positive testing of registration form', function() {
   });
 
   it ('Registration of the user with valid data', function() {
+    home_page.enterLinkClick();
     home_page.regLinkClick();
     home_page.enterEmailFieldValue('autotest@gm.com');
     home_page.enterPasswordFieldValue('hello123');
     home_page.clickOnRegButton();
-    browser.sleep(3000);
-    var profileHref = home_page.profileHrefFind()
+    browser.sleep(2000);
+    var profileHref = profile_page.profileHrefFind()
 
     expect(profileHref).toBe('https://avto.pro/users/profile/195776/personal/');
   });
 
   it ('Registration confirmations by means of buttons by default', function() {
+    home_page.enterLinkClick();
     home_page.regLinkClick();
     home_page.enterEmailFieldValue('autotest@gm.com');
     home_page.emailField().sendKeys(protractor.Key.TAB);
     home_page.enterPasswordFieldValue('hello123');
     home_page.passwordField().sendKeys(protractor.Key.ENTER);
-    browser.sleep(3000)
-    var profileHref = home_page.profileHrefFind()
+    browser.sleep(2000)
+    var profileHref = profile_page.profileHrefFind()
 
     expect(profileHref).toBe('https://avto.pro/users/profile/195776/personal/');
   });
